@@ -1,4 +1,4 @@
-
+DRUARD Josselin and ROUVIER Hugo
 
  !!!  Find exercise 2 IN branch MASTER and exercise 4 in branch MEDIATORPATTERN !!!
 
