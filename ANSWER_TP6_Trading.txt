@@ -1,3 +1,11 @@
+
+
+ !!!  Find exercise 2 IN branch MASTER and exercise 4 in branch MEDIATORPATTERN !!!
+
+
+
+
+
 ********** Exercise 1 **********
 
 
