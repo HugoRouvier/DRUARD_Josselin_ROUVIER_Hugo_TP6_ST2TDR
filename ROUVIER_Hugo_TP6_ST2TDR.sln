@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROUVIER_Hugo_TP6_ST2TDR", "ROUVIER_Hugo_TP6_ST2TDR.csproj", "{FF3EBE95-D92C-45FF-8A24-24C898FF1D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "..\MediatorPattern\MediatorPattern.csproj", "{61683858-79CC-4971-ACDF-7C2F418458CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF3EBE95-D92C-45FF-8A24-24C898FF1D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3EBE95-D92C-45FF-8A24-24C898FF1D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3EBE95-D92C-45FF-8A24-24C898FF1D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3EBE95-D92C-45FF-8A24-24C898FF1D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61683858-79CC-4971-ACDF-7C2F418458CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61683858-79CC-4971-ACDF-7C2F418458CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61683858-79CC-4971-ACDF-7C2F418458CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61683858-79CC-4971-ACDF-7C2F418458CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D34CF2EB-BEBC-4B66-8F6B-3B42B089A7B1}
+	EndGlobalSection
+EndGlobal

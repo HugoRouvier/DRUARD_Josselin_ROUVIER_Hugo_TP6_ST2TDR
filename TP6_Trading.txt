@@ -1,0 +1,53 @@
+********** Exercise 1 **********
+
+
+1.	What is clean code? What is the role played by refactoring one’s code?
+
+Clean code is code that can be understand easily by other programmers when reading your code. 
+It does not contain duplication and try to avoid excessive parts (classes…) and at the end it should pass all test. 
+The role of refactoring is to make the code better (cleaner) without changing the main process.  
+
+
+2.	Do you think you can “over-refactor” and do too much? How?
+
+I think that you can "over-refactor" and do too much by spending too much time refactoring someone's code when you don't need it.
+
+
+3.	What is a code smell? Why should you bother?
+
+Code smell is an indicator of a problem in the way your program is coded. You should bother as it can reveal defaults in your code.
+
+4.	Can you identify a few code smells in the original GuildedRose?
+
+We can identify the method updateQuality(), in the Gilded Rose class, is way too long (Long Method) 
+or that it contains too many nested If-statement which makes the code hard to understand. 
+
+5.	 What are some refactoring techniques you could have used in the GuildedRose?
+
+We could have used: 
+- the Extract Method to move parts of code outside the method in another method and call it in the first one. It is used to make your code more readable.
+- the Extract Variable to make an if statement more readable by placing the result of the expression or its parts in separate variables.
+- the Decompose Conditional to decompose the complicated parts of the conditional into separate methods (for the if statement)
+
+********** Exercise 2 **********
+
+
+1. In simple terms, and a few sentencesat most, what’s a design pattern?
+
+A design pattern is a general solution (template) for solving a specific programming problem. 
+You should use a pattern design when you think the scenario you need to implement can be addressed with a pattern.
+On the other hand, you shouldn't use a pattern if, without it, you can solve your problem in fewer lines.
+
+2.	Write  a  small  program  that  build  a pizza  with  various  toppings  using  the builder pattern. Why is this a good idea?Thinkabout scalability for instance
+
+It is a good idea because without it you would have to use a constructor with all possible toppings, therefore you will have to specify all toppings if they are in the pizza or not.
+The pattern helps you prevents the use of unnecessary parameters(here toppings) 
+
+3.	Find an original idea to implement a decorator pattern (not the one from the website). Can you think of any limitations? No need to code here.
+
+We can use a Decorator Pattern to implement a program that calculate the cost of a trip depending of the extra features you select during your choice.
+One of the limit is that once you've added a layer to your stack it is hard to remove it. 
+
+4.	Write  a  small  program  to  implement  the behavioral design  pattern  of  your  choice
+
+For this question, we chose the Mediator model and coded a small program that manages the messages between the different warehouses in France when they transfer inventory.
